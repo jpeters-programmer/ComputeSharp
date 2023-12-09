@@ -9,6 +9,7 @@
     <NoWarn>$(NoWarn);IDE0065</NoWarn>
     <AssemblyName>computesharp.d2d1.cli</AssemblyName>
     <ApplicationIcon>..\..\assets\icon.ico</ApplicationIcon>
+    <EnableMsixTooling>true</EnableMsixTooling>
   </PropertyGroup>
 
   <PropertyGroup>

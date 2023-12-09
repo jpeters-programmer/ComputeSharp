@@ -15,6 +15,7 @@
 
     <!-- When explicitly optimizing for size, strip the icon (which adds about 100 KB of binary size) -->
     <ApplicationIcon Condition="'$(COMPUTESHARP_SWAPCHAIN_CLI_SIZE_OPTIMIZED)' != 'true'">..\..\assets\icon.ico</ApplicationIcon>
+    <EnableMsixTooling>true</EnableMsixTooling>
   </PropertyGroup>
 
   <!--
